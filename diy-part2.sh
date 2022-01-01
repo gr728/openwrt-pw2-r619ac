@@ -13,3 +13,4 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 cp -rf $GITHUB_WORKSPACE/qcom-ipq4019-r619ac.dtsi target/linux/ipq40xx/files/arch/arm/boot/dts
+cp -rf $GITHUB_WORKSPACE/Makefile package/network/config/qosify
