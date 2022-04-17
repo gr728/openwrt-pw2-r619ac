@@ -16,4 +16,5 @@
 # Add a feed source
 #echo 'src-git Boos https://github.com/Boos4721/OpenWrt-Packages.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn checkout https://github.com/Boos4721/OpenWrt-Packages/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
