@@ -12,4 +12,3 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
-cp -rf $GITHUB_WORKSPACE/qcom-ipq4019-r619ac.dtsi target/linux/ipq40xx/files/arch/arm/boot/dts/qcom-ipq4019-r619ac.dtsi
